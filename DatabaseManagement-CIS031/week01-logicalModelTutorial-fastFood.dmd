@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="week01-logicalModelTutorial-fastFood" id="09B52B94-562F-48C9-EA60-A17710E97EE6" version="3.5">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-08-29 02:16:08 UTC</createdTime>
+<ownerDesignName>week01-logicalModelTutorial-fastFood</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>09B52B94-562F-48C9-EA60-A17710E97EE6</designId>
+</OSDM_Design>

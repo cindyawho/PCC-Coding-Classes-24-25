@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2C3E87AB-5FA4-B194-1A08-13DE49D344BC" containerWithKeyObject="E7EC19DC-4CD5-F9FA-044E-1D6B87BEDCC4" localFKIndex="9D612F67-7DDD-E0B5-2A8C-0BBD786FC7BC" name="FOOD_ITEM_REGULAR_MENU_FK">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-03 04:13:13 UTC</createdTime>
+<generatorID>83D707E0-CA43-2AF5-9A3D-9400399D4D6B</generatorID>
+<ownerDesignName>week01-logicalModelTutorial-fastFood</ownerDesignName>
+<referredTableLongName>REGULAR_MENU</referredTableLongName>
+<arc>44560D83-01F1-FCD1-04EF-9F32ADBFF0B3</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D8F6EE85-7EBF-FD94-6792-3C0DB9E4EA76</referredTableID>
+<keyObject>093202FD-704C-7004-C58F-A39780E822C9</keyObject>
+<referredKeyID>093202FD-704C-7004-C58F-A39780E822C9</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>code</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

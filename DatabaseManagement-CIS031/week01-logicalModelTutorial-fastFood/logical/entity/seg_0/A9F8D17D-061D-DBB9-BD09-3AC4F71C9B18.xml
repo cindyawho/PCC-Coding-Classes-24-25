@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A9F8D17D-061D-DBB9-BD09-3AC4F71C9B18" name="FOOD_ITEM">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-01 17:20:42 UTC</createdTime>
+<ownerDesignName>week01-logicalModelTutorial-fastFood</ownerDesignName>
+<engineerTo>
+<item key="18006D90-5186-544E-25AA-518207090316" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="FoodItem_Number" id="CEC8FA5F-0C10-A108-C13F-709B16DFF610">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-01 17:20:42 UTC</createdTime>
+<ownerDesignName>week01-logicalModelTutorial-fastFood</ownerDesignName>
+<engineerTo>
+<item key="18006D90-5186-544E-25AA-518207090316" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Description" id="D3CB3532-2E63-0E5B-7BCF-30B13862A020">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-01 17:20:42 UTC</createdTime>
+<ownerDesignName>week01-logicalModelTutorial-fastFood</ownerDesignName>
+<engineerTo>
+<item key="18006D90-5186-544E-25AA-518207090316" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Price" id="B13609FF-AFB3-6270-2FD5-9A4EDE689F2E">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-01 17:20:42 UTC</createdTime>
+<ownerDesignName>week01-logicalModelTutorial-fastFood</ownerDesignName>
+<engineerTo>
+<item key="18006D90-5186-544E-25AA-518207090316" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="code" id="16DA52D6-7AFD-5852-B281-39464E7FBCEF">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-03 04:00:00 UTC</createdTime>
+<generatorID>5335AC5A-6B34-99B8-DC35-46C7A9401318</generatorID>
+<ownerDesignName>week01-logicalModelTutorial-fastFood</ownerDesignName>
+<engineerTo>
+<item key="18006D90-5186-544E-25AA-518207090316" value="true"/>
+</engineerTo>
+<referedAttribute>0D9EABB1-50EC-A758-A708-B9E3EC7276D6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="code1" id="31D361BF-971F-64E4-C232-EBA4E55DDE5B">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-03 04:02:08 UTC</createdTime>
+<generatorID>83D707E0-CA43-2AF5-9A3D-9400399D4D6B</generatorID>
+<ownerDesignName>week01-logicalModelTutorial-fastFood</ownerDesignName>
+<engineerTo>
+<item key="18006D90-5186-544E-25AA-518207090316" value="true"/>
+</engineerTo>
+<referedAttribute>48079C90-0FF8-B5F5-F297-24B53EF0AC7F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3AC4B351-1298-0F63-980D-4F9B26A88232" name="ORDER PK">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-01 17:20:42 UTC</createdTime>
+<ownerDesignName>week01-logicalModelTutorial-fastFood</ownerDesignName>
+<engineerTo>
+<item key="18006D90-5186-544E-25AA-518207090316" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CEC8FA5F-0C10-A108-C13F-709B16DFF610</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

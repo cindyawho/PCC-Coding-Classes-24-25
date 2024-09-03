@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E7EC19DC-4CD5-F9FA-044E-1D6B87BEDCC4" name="FOOD_ITEM">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-03 04:13:13 UTC</createdTime>
+<generatorID>A9F8D17D-061D-DBB9-BD09-3AC4F71C9B18</generatorID>
+<ownerDesignName>week01-logicalModelTutorial-fastFood</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FoodItem_Number" id="C8CA51D1-E666-E8A9-9A25-943935AF5E3D">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-03 04:13:13 UTC</createdTime>
+<generatorID>CEC8FA5F-0C10-A108-C13F-709B16DFF610</generatorID>
+<ownerDesignName>week01-logicalModelTutorial-fastFood</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Description" id="C1EA971B-7B4E-A0AE-B22B-211AD177812F">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-03 04:13:13 UTC</createdTime>
+<generatorID>D3CB3532-2E63-0E5B-7BCF-30B13862A020</generatorID>
+<ownerDesignName>week01-logicalModelTutorial-fastFood</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Price" id="073AFBDD-1088-7A29-4B78-28CA02689D54">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-03 04:13:13 UTC</createdTime>
+<generatorID>B13609FF-AFB3-6270-2FD5-9A4EDE689F2E</generatorID>
+<ownerDesignName>week01-logicalModelTutorial-fastFood</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROMOTIONAL_MENU_code" id="C21A7D08-3FB2-DE41-1EA7-975A2C1D77BA">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-03 04:13:13 UTC</createdTime>
+<generatorID>16DA52D6-7AFD-5852-B281-39464E7FBCEF</generatorID>
+<ownerDesignName>week01-logicalModelTutorial-fastFood</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2417E7D6-330B-0F36-3603-8902353120EC" referredColumn="3D64BCC2-AB59-4DA6-AD84-A7F2C9952BAA"/>
+</associations>
+</Column>
+<Column name="REGULAR_MENU_code" id="AE684152-99B8-1E72-1BA4-F237B33698BB">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-03 04:13:13 UTC</createdTime>
+<generatorID>31D361BF-971F-64E4-C232-EBA4E55DDE5B</generatorID>
+<ownerDesignName>week01-logicalModelTutorial-fastFood</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2C3E87AB-5FA4-B194-1A08-13DE49D344BC" referredColumn="2D50BA29-434E-BC26-6813-553F4465EC93"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1CE1B780-22D1-7EDD-4195-59973BFCB9C7" name="FOOD_ITEM_PK">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-03 04:13:13 UTC</createdTime>
+<generatorID>3AC4B351-1298-0F63-980D-4F9B26A88232</generatorID>
+<ownerDesignName>week01-logicalModelTutorial-fastFood</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C8CA51D1-E666-E8A9-9A25-943935AF5E3D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="39462275-D4D7-8333-671B-1F751ABEB42E" name="FOOD_ITEM_PROMOTIONAL_MENU_FK">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-03 04:13:13 UTC</createdTime>
+<generatorID>5335AC5A-6B34-99B8-DC35-46C7A9401318</generatorID>
+<ownerDesignName>week01-logicalModelTutorial-fastFood</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C21A7D08-3FB2-DE41-1EA7-975A2C1D77BA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9D612F67-7DDD-E0B5-2A8C-0BBD786FC7BC" name="FOOD_ITEM_REGULAR_MENU_FK">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-03 04:13:13 UTC</createdTime>
+<generatorID>83D707E0-CA43-2AF5-9A3D-9400399D4D6B</generatorID>
+<ownerDesignName>week01-logicalModelTutorial-fastFood</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AE684152-99B8-1E72-1BA4-F237B33698BB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

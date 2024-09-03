@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4860B6A3-1D0D-1480-7FC1-EF08F54F3734" containerWithKeyObject="7501940B-4B1D-4E92-D710-B6906DB8BA9A" localFKIndex="A36F2BFC-5104-9F7E-C214-9C685159E039" name="SHIFT_ASSIGNMENT_Shift_FK">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-03 04:13:14 UTC</createdTime>
+<generatorID>83F67BE4-1051-4CDA-551B-C869A879672C</generatorID>
+<ownerDesignName>week01-logicalModelTutorial-fastFood</ownerDesignName>
+<referredTableLongName>Shift</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E291055B-4009-8D26-773B-AA853637B577</referredTableID>
+<keyObject>0ECF8AB6-A5CE-F319-6D6D-1C2BAFFD0983</keyObject>
+<referredKeyID>0ECF8AB6-A5CE-F319-6D6D-1C2BAFFD0983</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Code</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

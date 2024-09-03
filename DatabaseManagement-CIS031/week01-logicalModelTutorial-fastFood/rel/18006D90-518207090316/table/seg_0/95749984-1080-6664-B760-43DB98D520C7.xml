@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="95749984-1080-6664-B760-43DB98D520C7" name="CUSTOMER">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-03 04:13:13 UTC</createdTime>
+<generatorID>E43FEB42-F55E-9431-B328-DC476E4E9B0A</generatorID>
+<ownerDesignName>week01-logicalModelTutorial-fastFood</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="F1B6FAA4-E92A-578C-1BDC-56DE4F6F56DA">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-03 04:13:13 UTC</createdTime>
+<generatorID>258A634B-45E4-0B6D-F843-73FF5804FDF2</generatorID>
+<ownerDesignName>week01-logicalModelTutorial-fastFood</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="First_Name" id="49750689-8C2E-4B5E-C188-2EE9158B7644">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-03 04:13:13 UTC</createdTime>
+<generatorID>72A59778-AAC5-E6CD-BFA4-3FBCE748EC15</generatorID>
+<ownerDesignName>week01-logicalModelTutorial-fastFood</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Last_Name" id="414F9B81-524E-70A3-144B-94A6108FBB4D">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-03 04:13:13 UTC</createdTime>
+<generatorID>7AE1FAD4-5D9D-F52E-DD35-EEC5705F4140</generatorID>
+<ownerDesignName>week01-logicalModelTutorial-fastFood</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Address" id="E91F53AC-A1B7-EF6E-0635-F0DF19BD0916">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-03 04:13:13 UTC</createdTime>
+<generatorID>366A2366-823D-EFD8-881C-A57B5DA52FCF</generatorID>
+<ownerDesignName>week01-logicalModelTutorial-fastFood</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="City" id="F3C08CAC-4748-341F-ADEF-0AB3BE5AFEDC">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-03 04:13:13 UTC</createdTime>
+<generatorID>4EC178CA-6B13-5E89-EF07-72D946F0C310</generatorID>
+<ownerDesignName>week01-logicalModelTutorial-fastFood</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="State" id="29C9FD2A-E158-8577-C4F8-BC2ADBC9A029">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-03 04:13:13 UTC</createdTime>
+<generatorID>7964B8EF-0FB2-1B27-84DB-69D03A4DB15B</generatorID>
+<ownerDesignName>week01-logicalModelTutorial-fastFood</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zip" id="FFBA5F83-306E-065F-C0D9-90B1A41EDFC6">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-03 04:13:13 UTC</createdTime>
+<generatorID>192CAF49-7A2B-1C22-E158-08617B5FC6AC</generatorID>
+<ownerDesignName>week01-logicalModelTutorial-fastFood</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PhoneNumber" id="CF7A0CB3-938B-9924-064E-EF86B3CA8656">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-03 04:13:13 UTC</createdTime>
+<generatorID>9DB05ED6-A2CF-C77B-FB8A-848299CD873D</generatorID>
+<ownerDesignName>week01-logicalModelTutorial-fastFood</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F33B592F-E2E7-5479-A397-E7E81FA54DEC" name="CUSTOMER_PK">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-03 04:13:13 UTC</createdTime>
+<generatorID>B443EB6B-D5CE-76D6-8E8A-291166AC1DD6</generatorID>
+<ownerDesignName>week01-logicalModelTutorial-fastFood</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F1B6FAA4-E92A-578C-1BDC-56DE4F6F56DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

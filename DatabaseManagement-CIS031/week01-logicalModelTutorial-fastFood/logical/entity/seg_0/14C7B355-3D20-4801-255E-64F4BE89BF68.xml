@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="14C7B355-3D20-4801-255E-64F4BE89BF68" name="SHIFT_ASSIGNMENT">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-02 01:30:21 UTC</createdTime>
+<ownerDesignName>week01-logicalModelTutorial-fastFood</ownerDesignName>
+<engineerTo>
+<item key="18006D90-5186-544E-25AA-518207090316" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Shift_Assign_Date" id="E58DDF47-08C6-DBB0-E2BC-7EBB40D5A88B">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-02 01:30:32 UTC</createdTime>
+<ownerDesignName>week01-logicalModelTutorial-fastFood</ownerDesignName>
+<engineerTo>
+<item key="18006D90-5186-544E-25AA-518207090316" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID" id="E7C5EFE2-CBFA-2942-5E69-F90A6341EAAC">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-03 04:11:52 UTC</createdTime>
+<generatorID>FE82FA9F-CDB7-F96F-56AA-CF63B9134279</generatorID>
+<ownerDesignName>week01-logicalModelTutorial-fastFood</ownerDesignName>
+<engineerTo>
+<item key="18006D90-5186-544E-25AA-518207090316" value="true"/>
+</engineerTo>
+<referedAttribute>216A8001-FFD2-3291-6482-C97D1FDAFEAB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="061CA013-4C66-A9F1-E2A0-559B7B054D3C">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-03 04:11:52 UTC</createdTime>
+<generatorID>FE82FA9F-CDB7-F96F-56AA-CF63B9134279</generatorID>
+<ownerDesignName>week01-logicalModelTutorial-fastFood</ownerDesignName>
+<engineerTo>
+<item key="18006D90-5186-544E-25AA-518207090316" value="true"/>
+</engineerTo>
+<referedAttribute>4404FD94-5907-7BB6-B85E-81F492A22D74</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Code" id="20374248-1D48-18A2-C22C-EDC66A694C41">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-03 04:12:18 UTC</createdTime>
+<generatorID>83F67BE4-1051-4CDA-551B-C869A879672C</generatorID>
+<ownerDesignName>week01-logicalModelTutorial-fastFood</ownerDesignName>
+<engineerTo>
+<item key="18006D90-5186-544E-25AA-518207090316" value="true"/>
+</engineerTo>
+<referedAttribute>2B2CF14A-2179-9BAC-A5C8-D98958B6A264</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4229F9FE-8107-A093-0ADE-529B628FA156" name="SHIFT_ASSIGNMENT PK">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-02 01:30:42 UTC</createdTime>
+<ownerDesignName>week01-logicalModelTutorial-fastFood</ownerDesignName>
+<engineerTo>
+<item key="18006D90-5186-544E-25AA-518207090316" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E58DDF47-08C6-DBB0-E2BC-7EBB40D5A88B</attributeRef>
+<attributeRef>E7C5EFE2-CBFA-2942-5E69-F90A6341EAAC</attributeRef>
+<attributeRef>061CA013-4C66-A9F1-E2A0-559B7B054D3C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

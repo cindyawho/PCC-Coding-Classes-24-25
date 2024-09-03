@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="18006D90-5186-544E-25AA-518207090316" mainViewID="F33DE43F-9329-395F-D7C0-31DD1DAD0FFA">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-08-29 02:16:11 UTC</createdTime>
+<ownerDesignName>week01-logicalModelTutorial-fastFood</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

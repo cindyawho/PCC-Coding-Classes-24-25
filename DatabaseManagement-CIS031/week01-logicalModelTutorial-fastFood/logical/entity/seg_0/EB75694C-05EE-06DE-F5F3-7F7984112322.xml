@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EB75694C-05EE-06DE-F5F3-7F7984112322" name="Order_Line">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-02 01:27:00 UTC</createdTime>
+<ownerDesignName>week01-logicalModelTutorial-fastFood</ownerDesignName>
+<engineerTo>
+<item key="18006D90-5186-544E-25AA-518207090316" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Quantity" id="316DA778-ECF8-ADB9-61B8-C819A92D647D">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-02 01:27:12 UTC</createdTime>
+<ownerDesignName>week01-logicalModelTutorial-fastFood</ownerDesignName>
+<engineerTo>
+<item key="18006D90-5186-544E-25AA-518207090316" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FoodItem_Number" id="43B9D068-CCF6-C2E3-74AE-146E3D3124A5">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-03 04:04:31 UTC</createdTime>
+<generatorID>4F155F7C-E148-81EB-9741-808C995529DE</generatorID>
+<ownerDesignName>week01-logicalModelTutorial-fastFood</ownerDesignName>
+<engineerTo>
+<item key="18006D90-5186-544E-25AA-518207090316" value="true"/>
+</engineerTo>
+<referedAttribute>CEC8FA5F-0C10-A108-C13F-709B16DFF610</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OrderNumber" id="BA35F25C-360C-CE77-61B8-2212E4EFF9F1">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-03 04:04:44 UTC</createdTime>
+<generatorID>905988E6-FA67-86EC-61F8-B790B200CD9A</generatorID>
+<ownerDesignName>week01-logicalModelTutorial-fastFood</ownerDesignName>
+<engineerTo>
+<item key="18006D90-5186-544E-25AA-518207090316" value="true"/>
+</engineerTo>
+<referedAttribute>BCD10E7E-99F8-E17A-09B4-58D8F901395C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="788165A8-5FED-873F-A0A5-ACAFA2BFFF1C" name="Order_Line PK">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-03 04:04:31 UTC</createdTime>
+<ownerDesignName>week01-logicalModelTutorial-fastFood</ownerDesignName>
+<engineerTo>
+<item key="18006D90-5186-544E-25AA-518207090316" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>43B9D068-CCF6-C2E3-74AE-146E3D3124A5</attributeRef>
+<attributeRef>BA35F25C-360C-CE77-61B8-2212E4EFF9F1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

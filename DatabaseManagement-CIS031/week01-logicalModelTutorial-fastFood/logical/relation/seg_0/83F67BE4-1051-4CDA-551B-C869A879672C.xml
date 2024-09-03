@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_11" directorySegmentName="seg_0" id="83F67BE4-1051-4CDA-551B-C869A879672C">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-03 04:12:18 UTC</createdTime>
+<ownerDesignName>week01-logicalModelTutorial-fastFood</ownerDesignName>
+<engineerTo>
+<item key="18006D90-5186-544E-25AA-518207090316" value="true"/>
+</engineerTo>
+<sourcePk>A86FF9B2-F184-E3C2-A336-B78E16D49CBD</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>the time of</nameOnSource>
+<nameOnTarget>for</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F1192022-347F-EB88-929D-9719403B2CA5</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>14C7B355-3D20-4801-255E-64F4BE89BF68</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

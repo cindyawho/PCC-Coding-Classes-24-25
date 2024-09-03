@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_0" id="883749F4-46D9-05EE-2447-F565EA354C0B" name="Arc_1">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-03 04:02:25 UTC</createdTime>
+<ownerDesignName>week01-logicalModelTutorial-fastFood</ownerDesignName>
+<engineerTo>
+<item key="18006D90-5186-544E-25AA-518207090316" value="true"/>
+</engineerTo>
+<entity>A9F8D17D-061D-DBB9-BD09-3AC4F71C9B18</entity>
+<relations>
+<relationID>5335AC5A-6B34-99B8-DC35-46C7A9401318</relationID>
+<relationID>83D707E0-CA43-2AF5-9A3D-9400399D4D6B</relationID>
+</relations>
+</Arc>

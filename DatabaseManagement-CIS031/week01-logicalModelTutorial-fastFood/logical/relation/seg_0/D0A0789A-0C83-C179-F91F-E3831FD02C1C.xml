@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CustomerOrders_Relation" directorySegmentName="seg_0" id="D0A0789A-0C83-C179-F91F-E3831FD02C1C">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-02 01:33:37 UTC</createdTime>
+<ownerDesignName>week01-logicalModelTutorial-fastFood</ownerDesignName>
+<engineerTo>
+<item key="18006D90-5186-544E-25AA-518207090316" value="true"/>
+</engineerTo>
+<sourcePk>B443EB6B-D5CE-76D6-8E8A-291166AC1DD6</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>Places</nameOnSource>
+<nameOnTarget>Placed by</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E43FEB42-F55E-9431-B328-DC476E4E9B0A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>818D19B4-E953-302E-4159-19C287870B8E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

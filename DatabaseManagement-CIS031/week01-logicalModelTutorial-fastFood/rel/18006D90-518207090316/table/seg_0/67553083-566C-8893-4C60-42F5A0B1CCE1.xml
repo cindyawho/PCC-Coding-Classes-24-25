@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="67553083-566C-8893-4C60-42F5A0B1CCE1" name="ORDER_TAKER">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-03 04:13:13 UTC</createdTime>
+<generatorID>54600399-7C6A-FFC9-03D8-6D4140380CD9</generatorID>
+<ownerDesignName>week01-logicalModelTutorial-fastFood</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="4AFB2085-9106-F3A7-BF5A-143A641C0249">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-03 04:13:13 UTC</createdTime>
+<generatorID>216A8001-FFD2-3291-6482-C97D1FDAFEAB</generatorID>
+<ownerDesignName>week01-logicalModelTutorial-fastFood</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5FCB1230-6E3A-9D10-206D-AB9A88B8CCE6" referredColumn="E8E842D0-8357-C366-161C-492BCF242065"/>
+</associations>
+</Column>
+<Column name="OvertimeRate" id="039AFC2E-E393-3C06-E6AA-23D7A4750926">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-03 04:13:13 UTC</createdTime>
+<generatorID>CB4AA639-DAE6-908D-9473-5EE786E22FE3</generatorID>
+<ownerDesignName>week01-logicalModelTutorial-fastFood</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID1" id="8077A5EB-7182-939E-3A27-0DE815FFEA08">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-03 04:13:13 UTC</createdTime>
+<generatorID>4404FD94-5907-7BB6-B85E-81F492A22D74</generatorID>
+<ownerDesignName>week01-logicalModelTutorial-fastFood</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5FCB1230-6E3A-9D10-206D-AB9A88B8CCE6" referredColumn="A01D3805-90F4-4E27-72BF-1A3E0C3309B0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C596D973-0ABD-4A77-1777-32E152C8F481" name="ORDER_TAKER_PK">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-03 04:13:13 UTC</createdTime>
+<generatorID>B207A51B-4E8D-219D-EFEB-9E6B7C5AB845</generatorID>
+<ownerDesignName>week01-logicalModelTutorial-fastFood</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4AFB2085-9106-F3A7-BF5A-143A641C0249"/>
+<colUsage columnID="8077A5EB-7182-939E-3A27-0DE815FFEA08"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2B57E3EB-D8BA-8C4E-4EDD-9A5C12EF9D31" name="ORDER_TAKER_STAFF_FK">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-03 04:13:13 UTC</createdTime>
+<generatorID>F331347C-C963-A314-BF4A-DE4CA988B373</generatorID>
+<ownerDesignName>week01-logicalModelTutorial-fastFood</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4AFB2085-9106-F3A7-BF5A-143A641C0249"/>
+<colUsage columnID="8077A5EB-7182-939E-3A27-0DE815FFEA08"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

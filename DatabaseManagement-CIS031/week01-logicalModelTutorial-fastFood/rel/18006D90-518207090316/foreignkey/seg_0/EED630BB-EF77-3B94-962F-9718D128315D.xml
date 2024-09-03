@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EED630BB-EF77-3B94-962F-9718D128315D" containerWithKeyObject="B90757B9-8D09-663B-AEA3-5C4553212F23" localFKIndex="4792B248-608D-2800-D191-4D93FC20E3F4" name="STAFF_MANAGER_FK">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-03 04:13:13 UTC</createdTime>
+<generatorID>2284A5C9-BACF-A251-E884-1218681C2AAC</generatorID>
+<ownerDesignName>week01-logicalModelTutorial-fastFood</ownerDesignName>
+<referredTableLongName>MANAGER</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F96D63BD-CDCB-466B-097B-8C7C38E093F6</referredTableID>
+<keyObject>D6F58AD9-FD34-099B-BC6A-BB1C68145076</keyObject>
+<referredKeyID>D6F58AD9-FD34-099B-BC6A-BB1C68145076</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID,ID1</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="75D4C513-16C9-32AD-671B-5A0CB1C00DD5" containerWithKeyObject="429ABB09-DC8A-EB81-2A4E-54F749D8744A" localFKIndex="8BDCF7A4-F456-A531-140E-89AE0C660DCA" name="Order_Line_FOOD_ITEM_FK">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-03 04:13:14 UTC</createdTime>
+<generatorID>4F155F7C-E148-81EB-9741-808C995529DE</generatorID>
+<ownerDesignName>week01-logicalModelTutorial-fastFood</ownerDesignName>
+<referredTableLongName>FOOD_ITEM</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E7EC19DC-4CD5-F9FA-044E-1D6B87BEDCC4</referredTableID>
+<keyObject>1CE1B780-22D1-7EDD-4195-59973BFCB9C7</keyObject>
+<referredKeyID>1CE1B780-22D1-7EDD-4195-59973BFCB9C7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>FoodItem_Number</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

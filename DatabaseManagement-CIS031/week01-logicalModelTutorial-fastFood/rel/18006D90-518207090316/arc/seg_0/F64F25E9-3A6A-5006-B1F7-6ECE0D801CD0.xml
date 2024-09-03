@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKArc class="oracle.dbtools.crest.model.design.relational.FKArc" directorySegmentName="seg_0" id="F64F25E9-3A6A-5006-B1F7-6ECE0D801CD0" name="FKArc_1">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-03 04:13:13 UTC</createdTime>
+<ownerDesignName>week01-logicalModelTutorial-fastFood</ownerDesignName>
+<mandatory>false</mandatory>
+<reverseArc>true</reverseArc>
+<table>B90757B9-8D09-663B-AEA3-5C4553212F23</table>
+<fkeys>
+<fkeyID>DEE722AC-253E-5149-1C7F-A9846579BC4E</fkeyID>
+<fkeyID>5FCB1230-6E3A-9D10-206D-AB9A88B8CCE6</fkeyID>
+<fkeyID>944E1D08-6C15-B326-39A7-B0DC20A58E4C</fkeyID>
+</fkeys>
+</FKArc>

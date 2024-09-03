@@ -1,0 +1,169 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B90757B9-8D09-663B-AEA3-5C4553212F23" name="STAFF">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-08-29 03:04:12 UTC</createdTime>
+<generatorID>B1D8A392-2F8A-0070-F028-9ECD9228A7B9</generatorID>
+<ownerDesignName>week01-logicalModelTutorial-fastFood</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="E8E842D0-8357-C366-161C-492BCF242065">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-08-29 03:04:12 UTC</createdTime>
+<generatorID>216A8001-FFD2-3291-6482-C97D1FDAFEAB</generatorID>
+<ownerDesignName>week01-logicalModelTutorial-fastFood</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FIRST_NAME" id="03E7FA20-7971-53C8-D117-863890AC1427">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-08-29 03:04:12 UTC</createdTime>
+<generatorID>F18D294B-BE15-D069-72B9-12478D66D48B</generatorID>
+<ownerDesignName>week01-logicalModelTutorial-fastFood</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LAST_NAME" id="5E3FD04B-42CB-690D-7C00-CF2A32847979">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-08-29 03:04:12 UTC</createdTime>
+<generatorID>6FE3F0C3-EE52-565E-B343-C8F3EC9CD0A3</generatorID>
+<ownerDesignName>week01-logicalModelTutorial-fastFood</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="birthdate" id="8591969E-9C68-51CD-7730-A8D598D4118C">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-08-29 03:04:12 UTC</createdTime>
+<generatorID>FEFF483E-937D-459F-D953-06D1F7DC14E1</generatorID>
+<ownerDesignName>week01-logicalModelTutorial-fastFood</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MANAGER_ID" id="A01D3805-90F4-4E27-72BF-1A3E0C3309B0">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-03 04:13:13 UTC</createdTime>
+<generatorID>4404FD94-5907-7BB6-B85E-81F492A22D74</generatorID>
+<ownerDesignName>week01-logicalModelTutorial-fastFood</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EED630BB-EF77-3B94-962F-9718D128315D" referredColumn="BBBDFC1F-2AD7-B0D7-6D53-15FC6CDC4F7F"/>
+</associations>
+</Column>
+<Column name="SALARY" id="AF66BEDF-3BA6-2035-53EC-73714A98B8D9">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-03 04:13:13 UTC</createdTime>
+<generatorID>2696667F-609E-746F-4912-7A12A04E56AC</generatorID>
+<ownerDesignName>week01-logicalModelTutorial-fastFood</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Training" id="574CCE70-C5EC-CFDF-0EBB-9575201740C6">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-03 04:13:13 UTC</createdTime>
+<generatorID>2E2E05AB-1563-13ED-A975-FB3F88F447B2</generatorID>
+<ownerDesignName>week01-logicalModelTutorial-fastFood</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Overtime_Rate" id="F5433F77-3074-1297-6206-9CA436DE065D">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-03 04:13:13 UTC</createdTime>
+<generatorID>AF14C4D8-4ED9-9011-3B66-EA3B868336F0</generatorID>
+<ownerDesignName>week01-logicalModelTutorial-fastFood</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Budget" id="89364CF0-02BE-20BB-0667-A6F2F1D1164E">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-03 04:13:13 UTC</createdTime>
+<generatorID>9F4EDAB9-62C2-9A71-1CAF-581CD82917E6</generatorID>
+<ownerDesignName>week01-logicalModelTutorial-fastFood</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Target_Revenue" id="EB1EB9DD-0467-A23A-2763-584A3A60383C">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-03 04:13:13 UTC</createdTime>
+<generatorID>7D6ABCD3-9217-AD8B-7EC1-9423830DC020</generatorID>
+<ownerDesignName>week01-logicalModelTutorial-fastFood</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F4E93F69-419D-D052-B7D3-E1B26AF763D1" name="STAFF_PK">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-08-29 03:04:12 UTC</createdTime>
+<generatorID>B207A51B-4E8D-219D-EFEB-9E6B7C5AB845</generatorID>
+<ownerDesignName>week01-logicalModelTutorial-fastFood</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E8E842D0-8357-C366-161C-492BCF242065"/>
+<colUsage columnID="A01D3805-90F4-4E27-72BF-1A3E0C3309B0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="562CE7C2-596E-EA9B-BB48-6434E3272058" name="STAFF_birthdate_UN">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-03 04:13:13 UTC</createdTime>
+<generatorID>B433F626-4F1F-E98A-27D2-579BBC5384E0</generatorID>
+<ownerDesignName>week01-logicalModelTutorial-fastFood</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8591969E-9C68-51CD-7730-A8D598D4118C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4792B248-608D-2800-D191-4D93FC20E3F4" name="STAFF_MANAGER_FK">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-03 04:13:13 UTC</createdTime>
+<generatorID>2284A5C9-BACF-A251-E884-1218681C2AAC</generatorID>
+<ownerDesignName>week01-logicalModelTutorial-fastFood</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A01D3805-90F4-4E27-72BF-1A3E0C3309B0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

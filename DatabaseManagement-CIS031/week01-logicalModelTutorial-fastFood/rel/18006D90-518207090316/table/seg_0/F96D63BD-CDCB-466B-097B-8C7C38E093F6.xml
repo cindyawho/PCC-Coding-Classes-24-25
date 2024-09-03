@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F96D63BD-CDCB-466B-097B-8C7C38E093F6" name="MANAGER">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-03 04:13:13 UTC</createdTime>
+<generatorID>9290D73D-E01B-7830-1C92-CD81F0CB065A</generatorID>
+<ownerDesignName>week01-logicalModelTutorial-fastFood</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="BBBDFC1F-2AD7-B0D7-6D53-15FC6CDC4F7F">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-03 04:13:13 UTC</createdTime>
+<generatorID>216A8001-FFD2-3291-6482-C97D1FDAFEAB</generatorID>
+<ownerDesignName>week01-logicalModelTutorial-fastFood</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="944E1D08-6C15-B326-39A7-B0DC20A58E4C" referredColumn="E8E842D0-8357-C366-161C-492BCF242065"/>
+</associations>
+</Column>
+<Column name="Budget" id="86DBB0CA-A963-A5BB-EF79-AC1B24E6DABF">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-03 04:13:13 UTC</createdTime>
+<generatorID>AD14DE44-937C-359D-CA26-40587B9D6F63</generatorID>
+<ownerDesignName>week01-logicalModelTutorial-fastFood</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TargetRevenue" id="563AAF50-881B-ADE4-8837-40BFE4FB0050">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-03 04:13:13 UTC</createdTime>
+<generatorID>03AD2A58-2EE3-805E-9336-89EF09A3F443</generatorID>
+<ownerDesignName>week01-logicalModelTutorial-fastFood</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID1" id="CFB8C9C4-0ED6-7A24-A745-448BF42AB08D">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-03 04:13:13 UTC</createdTime>
+<generatorID>4404FD94-5907-7BB6-B85E-81F492A22D74</generatorID>
+<ownerDesignName>week01-logicalModelTutorial-fastFood</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="944E1D08-6C15-B326-39A7-B0DC20A58E4C" referredColumn="A01D3805-90F4-4E27-72BF-1A3E0C3309B0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D6F58AD9-FD34-099B-BC6A-BB1C68145076" name="MANAGER_PK">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-03 04:13:13 UTC</createdTime>
+<generatorID>B207A51B-4E8D-219D-EFEB-9E6B7C5AB845</generatorID>
+<ownerDesignName>week01-logicalModelTutorial-fastFood</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BBBDFC1F-2AD7-B0D7-6D53-15FC6CDC4F7F"/>
+<colUsage columnID="CFB8C9C4-0ED6-7A24-A745-448BF42AB08D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7207D7D5-7791-63CF-A4EE-A322DD7123F8" name="MANAGER_STAFF_FK">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-03 04:13:13 UTC</createdTime>
+<generatorID>335DA11D-5518-5C7A-2899-263E03841294</generatorID>
+<ownerDesignName>week01-logicalModelTutorial-fastFood</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BBBDFC1F-2AD7-B0D7-6D53-15FC6CDC4F7F"/>
+<colUsage columnID="CFB8C9C4-0ED6-7A24-A745-448BF42AB08D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

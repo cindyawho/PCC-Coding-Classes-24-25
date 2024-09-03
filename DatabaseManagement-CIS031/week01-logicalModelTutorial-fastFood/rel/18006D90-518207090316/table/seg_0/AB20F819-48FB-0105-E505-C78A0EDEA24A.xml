@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AB20F819-48FB-0105-E505-C78A0EDEA24A" name="COOK">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-03 04:13:13 UTC</createdTime>
+<generatorID>9C307E6B-4EF3-CFBA-E08C-3CDE9B87C6BE</generatorID>
+<ownerDesignName>week01-logicalModelTutorial-fastFood</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="A4668457-5AEF-64CC-E375-8C95A71920B1">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-03 04:13:13 UTC</createdTime>
+<generatorID>216A8001-FFD2-3291-6482-C97D1FDAFEAB</generatorID>
+<ownerDesignName>week01-logicalModelTutorial-fastFood</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DEE722AC-253E-5149-1C7F-A9846579BC4E" referredColumn="E8E842D0-8357-C366-161C-492BCF242065"/>
+</associations>
+</Column>
+<Column name="Training" id="B59B7319-0A77-BAC2-F2D4-78F83270ADCA">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-03 04:13:13 UTC</createdTime>
+<generatorID>5E5BE41A-4D78-FABB-D0B8-24358C3F7709</generatorID>
+<ownerDesignName>week01-logicalModelTutorial-fastFood</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID1" id="E95B7926-4E07-0E54-BE81-9E8810723FB2">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-03 04:13:13 UTC</createdTime>
+<generatorID>4404FD94-5907-7BB6-B85E-81F492A22D74</generatorID>
+<ownerDesignName>week01-logicalModelTutorial-fastFood</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DEE722AC-253E-5149-1C7F-A9846579BC4E" referredColumn="A01D3805-90F4-4E27-72BF-1A3E0C3309B0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="108241EF-1F58-31DD-D6FA-450666734FC1" name="COOK_PK">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-03 04:13:13 UTC</createdTime>
+<generatorID>B207A51B-4E8D-219D-EFEB-9E6B7C5AB845</generatorID>
+<ownerDesignName>week01-logicalModelTutorial-fastFood</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A4668457-5AEF-64CC-E375-8C95A71920B1"/>
+<colUsage columnID="E95B7926-4E07-0E54-BE81-9E8810723FB2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2ED51CB9-4ACB-13C9-C5BA-00305126BCDB" name="COOK_STAFF_FK">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-03 04:13:13 UTC</createdTime>
+<generatorID>31E70298-D0B7-1E71-BEAB-4EB6A7A55157</generatorID>
+<ownerDesignName>week01-logicalModelTutorial-fastFood</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A4668457-5AEF-64CC-E375-8C95A71920B1"/>
+<colUsage columnID="E95B7926-4E07-0E54-BE81-9E8810723FB2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

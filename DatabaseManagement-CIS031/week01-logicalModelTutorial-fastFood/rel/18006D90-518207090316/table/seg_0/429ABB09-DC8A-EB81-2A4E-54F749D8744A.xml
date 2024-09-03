@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="429ABB09-DC8A-EB81-2A4E-54F749D8744A" name="Order_Line">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-03 04:13:13 UTC</createdTime>
+<generatorID>EB75694C-05EE-06DE-F5F3-7F7984112322</generatorID>
+<ownerDesignName>week01-logicalModelTutorial-fastFood</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Quantity" id="1A22B31E-4244-0DF2-167F-EB18E8CA2EB7">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-03 04:13:13 UTC</createdTime>
+<generatorID>316DA778-ECF8-ADB9-61B8-C819A92D647D</generatorID>
+<ownerDesignName>week01-logicalModelTutorial-fastFood</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FOOD_ITEM_FoodItem_Number" id="A8CF05EB-CB22-21B3-493F-2B82B0F8AFF5">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-03 04:13:13 UTC</createdTime>
+<generatorID>43B9D068-CCF6-C2E3-74AE-146E3D3124A5</generatorID>
+<ownerDesignName>week01-logicalModelTutorial-fastFood</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="75D4C513-16C9-32AD-671B-5A0CB1C00DD5" referredColumn="C8CA51D1-E666-E8A9-9A25-943935AF5E3D"/>
+</associations>
+</Column>
+<Column name="ORDER_OrderNumber" id="37167F10-5E5F-49BF-4BDF-4A03AB4495C1">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-03 04:13:13 UTC</createdTime>
+<generatorID>BA35F25C-360C-CE77-61B8-2212E4EFF9F1</generatorID>
+<ownerDesignName>week01-logicalModelTutorial-fastFood</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0A53714B-3B9C-EB5F-15C8-2CD472EFD1F4" referredColumn="858A7497-E18F-5D20-E6BE-C0FE52210F36"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9B7B7FB3-E9BC-E1B5-1A7D-1D56E543D254" name="Order_Line_PK">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-03 04:13:13 UTC</createdTime>
+<generatorID>788165A8-5FED-873F-A0A5-ACAFA2BFFF1C</generatorID>
+<ownerDesignName>week01-logicalModelTutorial-fastFood</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A8CF05EB-CB22-21B3-493F-2B82B0F8AFF5"/>
+<colUsage columnID="37167F10-5E5F-49BF-4BDF-4A03AB4495C1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8BDCF7A4-F456-A531-140E-89AE0C660DCA" name="Order_Line_FOOD_ITEM_FK">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-03 04:13:14 UTC</createdTime>
+<generatorID>4F155F7C-E148-81EB-9741-808C995529DE</generatorID>
+<ownerDesignName>week01-logicalModelTutorial-fastFood</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A8CF05EB-CB22-21B3-493F-2B82B0F8AFF5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CE405D24-79EA-31E0-7FF7-84471E3FEDF9" name="Order_Line_ORDER_FK">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-03 04:13:14 UTC</createdTime>
+<generatorID>905988E6-FA67-86EC-61F8-B790B200CD9A</generatorID>
+<ownerDesignName>week01-logicalModelTutorial-fastFood</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="37167F10-5E5F-49BF-4BDF-4A03AB4495C1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
