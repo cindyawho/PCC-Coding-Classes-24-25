@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id" id="258A634B-45E4-0B6D-F843-73FF5804FDF2">
+<Attribute name="Customer_ID" id="258A634B-45E4-0B6D-F843-73FF5804FDF2">
 <createdBy>cindyandrade</createdBy>
 <createdTime>2024-09-01 17:17:32 UTC</createdTime>
 <ownerDesignName>week01-logicalModelTutorial-fastFood</ownerDesignName>
