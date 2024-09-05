@@ -27,7 +27,7 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID" id="E7C5EFE2-CBFA-2942-5E69-F90A6341EAAC">
+<Attribute name="STAFF_ID" id="E7C5EFE2-CBFA-2942-5E69-F90A6341EAAC">
 <createdBy>cindyandrade</createdBy>
 <createdTime>2024-09-03 04:11:52 UTC</createdTime>
 <generatorID>FE82FA9F-CDB7-F96F-56AA-CF63B9134279</generatorID>
@@ -38,21 +38,8 @@
 <referedAttribute>216A8001-FFD2-3291-6482-C97D1FDAFEAB</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ID1" id="061CA013-4C66-A9F1-E2A0-559B7B054D3C">
-<createdBy>cindyandrade</createdBy>
-<createdTime>2024-09-03 04:11:52 UTC</createdTime>
-<generatorID>FE82FA9F-CDB7-F96F-56AA-CF63B9134279</generatorID>
-<ownerDesignName>week01-logicalModelTutorial-fastFood</ownerDesignName>
-<engineerTo>
-<item key="18006D90-5186-544E-25AA-518207090316" value="true"/>
-</engineerTo>
-<referedAttribute>4404FD94-5907-7BB6-B85E-81F492A22D74</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Code" id="20374248-1D48-18A2-C22C-EDC66A694C41">
@@ -67,6 +54,22 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="STAFF_ID1" id="1BD65605-C6E6-A24A-4E85-38D61F422E10">
+<createdBy>cindy</createdBy>
+<createdTime>2024-09-05 01:29:51 UTC</createdTime>
+<generatorID>FE82FA9F-CDB7-F96F-56AA-CF63B9134279</generatorID>
+<ownerDesignName>week01-logicalModelTutorial-fastFood</ownerDesignName>
+<engineerTo>
+<item key="18006D90-5186-544E-25AA-518207090316" value="true"/>
+</engineerTo>
+<referedAttribute>4404FD94-5907-7BB6-B85E-81F492A22D74</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -82,7 +85,7 @@
 <usedAttributes>
 <attributeRef>E58DDF47-08C6-DBB0-E2BC-7EBB40D5A88B</attributeRef>
 <attributeRef>E7C5EFE2-CBFA-2942-5E69-F90A6341EAAC</attributeRef>
-<attributeRef>061CA013-4C66-A9F1-E2A0-559B7B054D3C</attributeRef>
+<attributeRef>1BD65605-C6E6-A24A-4E85-38D61F422E10</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

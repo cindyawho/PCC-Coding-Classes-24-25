@@ -15,6 +15,21 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="1D792508-4F3A-F93D-857E-7ABBB0A57F9A">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-02 01:33:37 UTC</createdTime>
+<generatorID>D0A0789A-0C83-C179-F91F-E3831FD02C1C</generatorID>
+<ownerDesignName>week01-logicalModelTutorial-fastFood</ownerDesignName>
+<engineerTo>
+<item key="18006D90-5186-544E-25AA-518207090316" value="true"/>
+</engineerTo>
+<referedAttribute>258A634B-45E4-0B6D-F843-73FF5804FDF2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="OrderNumber" id="BCD10E7E-99F8-E17A-09B4-58D8F901395C">
 <createdBy>cindyandrade</createdBy>
 <createdTime>2024-09-01 17:20:00 UTC</createdTime>
@@ -25,7 +40,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Order_Date" id="EF0C7B47-321C-3DB0-DE2B-BCCEF590BC86">
 <createdBy>cindyandrade</createdBy>
@@ -50,23 +66,11 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id" id="1D792508-4F3A-F93D-857E-7ABBB0A57F9A">
-<createdBy>cindyandrade</createdBy>
-<createdTime>2024-09-02 01:33:37 UTC</createdTime>
-<generatorID>D0A0789A-0C83-C179-F91F-E3831FD02C1C</generatorID>
-<ownerDesignName>week01-logicalModelTutorial-fastFood</ownerDesignName>
-<engineerTo>
-<item key="18006D90-5186-544E-25AA-518207090316" value="true"/>
-</engineerTo>
-<referedAttribute>258A634B-45E4-0B6D-F843-73FF5804FDF2</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ID1" id="4B281F9D-116E-FF41-9990-B29C3F1D7D94">
+<Attribute name="STAFF_ID" id="4B281F9D-116E-FF41-9990-B29C3F1D7D94">
 <createdBy>cindyandrade</createdBy>
 <createdTime>2024-09-03 04:10:54 UTC</createdTime>
 <generatorID>ECEAF167-B504-1F8E-61FE-FDCC1809E2E2</generatorID>
@@ -77,10 +81,11 @@
 <referedAttribute>216A8001-FFD2-3291-6482-C97D1FDAFEAB</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID11" id="E7C17575-FC7E-BC2A-82BC-D0D92508E8D8">
+<Attribute name="STAFF_ID1" id="E7C17575-FC7E-BC2A-82BC-D0D92508E8D8">
 <createdBy>cindyandrade</createdBy>
 <createdTime>2024-09-03 04:10:54 UTC</createdTime>
 <generatorID>ECEAF167-B504-1F8E-61FE-FDCC1809E2E2</generatorID>
@@ -91,7 +96,8 @@
 <referedAttribute>4404FD94-5907-7BB6-B85E-81F492A22D74</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

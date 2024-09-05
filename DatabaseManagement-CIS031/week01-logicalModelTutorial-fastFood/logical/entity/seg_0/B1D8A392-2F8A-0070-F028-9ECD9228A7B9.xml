@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID" id="216A8001-FFD2-3291-6482-C97D1FDAFEAB">
+<Attribute name="STAFF_ID" id="216A8001-FFD2-3291-6482-C97D1FDAFEAB">
 <createdBy>cindyandrade</createdBy>
 <createdTime>2024-08-29 02:30:13 UTC</createdTime>
 <ownerDesignName>week01-logicalModelTutorial-fastFood</ownerDesignName>
@@ -24,8 +24,9 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="FIRST_NAME" id="F18D294B-BE15-D069-72B9-12478D66D48B">
 <createdBy>cindyandrade</createdBy>
@@ -75,7 +76,9 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Training" id="2E2E05AB-1563-13ED-A975-FB3F88F447B2">
 <createdBy>cindyandrade</createdBy>
@@ -101,7 +104,9 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Budget" id="9F4EDAB9-62C2-9A71-1CAF-581CD82917E6">
 <createdBy>cindyandrade</createdBy>
@@ -114,7 +119,9 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Target_Revenue" id="7D6ABCD3-9217-AD8B-7EC1-9423830DC020">
 <createdBy>cindyandrade</createdBy>
@@ -127,9 +134,11 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID1" id="4404FD94-5907-7BB6-B85E-81F492A22D74">
+<Attribute name="STAFF_ID1" id="4404FD94-5907-7BB6-B85E-81F492A22D74">
 <createdBy>cindyandrade</createdBy>
 <createdTime>2024-09-03 04:05:40 UTC</createdTime>
 <generatorID>2284A5C9-BACF-A251-E884-1218681C2AAC</generatorID>
@@ -140,7 +149,8 @@
 <referedAttribute>216A8001-FFD2-3291-6482-C97D1FDAFEAB</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
