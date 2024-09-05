@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B418815D-8264-DDC0-37F4-81FF7BBD4DB5" name="PATIENT">
+<createdBy>cindy</createdBy>
+<createdTime>2024-09-05 04:05:12 UTC</createdTime>
+<ownerDesignName>week02_4-2_hospitalModel</ownerDesignName>
+<engineerTo>
+<item key="239B07E0-6165-EAB7-15B3-52FD81918C2D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Patient_Number" id="355DC587-4229-1A7E-155A-D993F413325A">
+<createdBy>cindy</createdBy>
+<createdTime>2024-09-05 04:05:20 UTC</createdTime>
+<ownerDesignName>week02_4-2_hospitalModel</ownerDesignName>
+<engineerTo>
+<item key="239B07E0-6165-EAB7-15B3-52FD81918C2D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PATIENT_NAME" id="6E2E577C-A718-413E-9633-893CB5540232">
+<createdBy>cindy</createdBy>
+<createdTime>2024-09-05 04:05:33 UTC</createdTime>
+<ownerDesignName>week02_4-2_hospitalModel</ownerDesignName>
+<engineerTo>
+<item key="239B07E0-6165-EAB7-15B3-52FD81918C2D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EEAA1558-E353-149B-D0FC-E4D764DE4E95" name="PATIENT PK">
+<createdBy>cindy</createdBy>
+<createdTime>2024-09-05 04:05:29 UTC</createdTime>
+<ownerDesignName>week02_4-2_hospitalModel</ownerDesignName>
+<engineerTo>
+<item key="239B07E0-6165-EAB7-15B3-52FD81918C2D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>355DC587-4229-1A7E-155A-D993F413325A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
