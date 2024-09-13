@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="753CED02-228F-8243-BDE0-D36EEA70C85D" name="Disk">
+<createdBy>cindy</createdBy>
+<createdTime>2024-09-12 02:00:28 UTC</createdTime>
+<ownerDesignName>movieRental</ownerDesignName>
+<engineerTo>
+<item key="176251FE-7FA2-C1C3-2451-CB80243F38B2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Disk_Number" id="6EB107F2-46CE-529D-1817-C58F6F4416C4">
+<createdBy>cindy</createdBy>
+<createdTime>2024-09-12 02:02:03 UTC</createdTime>
+<ownerDesignName>movieRental</ownerDesignName>
+<engineerTo>
+<item key="176251FE-7FA2-C1C3-2451-CB80243F38B2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Disk_Type" id="5F61542F-F36A-5876-8641-D8EC4604BB20">
+<createdBy>cindy</createdBy>
+<createdTime>2024-09-12 02:02:25 UTC</createdTime>
+<ownerDesignName>movieRental</ownerDesignName>
+<engineerTo>
+<item key="176251FE-7FA2-C1C3-2451-CB80243F38B2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E3B9CB19-76FD-9E59-6D13-230066813B71" name="Disk PK">
+<createdBy>cindy</createdBy>
+<createdTime>2024-09-12 02:02:22 UTC</createdTime>
+<ownerDesignName>movieRental</ownerDesignName>
+<engineerTo>
+<item key="176251FE-7FA2-C1C3-2451-CB80243F38B2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6EB107F2-46CE-529D-1817-C58F6F4416C4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="71F5D56B-1165-4D6B-B3D6-5CAD037D673C" name="ActorMovie">
+<createdBy>cindy</createdBy>
+<createdTime>2024-09-12 02:08:19 UTC</createdTime>
+<ownerDesignName>movieRental</ownerDesignName>
+<engineerTo>
+<item key="176251FE-7FA2-C1C3-2451-CB80243F38B2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Movie_ID" id="75CA1968-22AF-6508-F01C-20B3EE7233D7">
+<createdBy>cindy</createdBy>
+<createdTime>2024-09-12 02:24:41 UTC</createdTime>
+<generatorID>47E84F02-67DC-91BE-92D6-0D8EDEB52121</generatorID>
+<ownerDesignName>movieRental</ownerDesignName>
+<engineerTo>
+<item key="176251FE-7FA2-C1C3-2451-CB80243F38B2" value="true"/>
+</engineerTo>
+<referedAttribute>5CC98615-199F-ED24-3B64-20DBFF627637</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ActorID" id="9D55BAD2-8C2A-4FD7-8D0A-14AC1DFF1A1F">
+<createdBy>cindy</createdBy>
+<createdTime>2024-09-12 02:25:40 UTC</createdTime>
+<generatorID>CD98F2BB-E93F-19B1-2B65-B14913987F2B</generatorID>
+<ownerDesignName>movieRental</ownerDesignName>
+<engineerTo>
+<item key="176251FE-7FA2-C1C3-2451-CB80243F38B2" value="true"/>
+</engineerTo>
+<referedAttribute>97C5D42A-3B6D-20AA-D326-6E1585F79991</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="HasStar" id="462F397A-8099-8513-7543-9E50AA05E594">
+<createdBy>cindy</createdBy>
+<createdTime>2024-09-12 02:30:25 UTC</createdTime>
+<ownerDesignName>movieRental</ownerDesignName>
+<engineerTo>
+<item key="176251FE-7FA2-C1C3-2451-CB80243F38B2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="476A07FC-D02C-26D7-0FCB-EDFF300591DB" name="ActorMovie PK">
+<createdBy>cindy</createdBy>
+<createdTime>2024-09-12 02:24:32 UTC</createdTime>
+<ownerDesignName>movieRental</ownerDesignName>
+<engineerTo>
+<item key="176251FE-7FA2-C1C3-2451-CB80243F38B2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>75CA1968-22AF-6508-F01C-20B3EE7233D7</attributeRef>
+<attributeRef>9D55BAD2-8C2A-4FD7-8D0A-14AC1DFF1A1F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
