@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F9EBE92D-4C47-FF30-73FE-1248803B2F6A" name="MEMBER">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-21 04:39:10 UTC</createdTime>
+<ownerDesignName>dd8groupProject</ownerDesignName>
+<engineerTo>
+<item key="55617772-D8DA-5A9D-384D-D73F221344B2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Member_ID" id="0B177D6A-0A6C-B4AD-589E-5436A0FC7010">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-21 04:41:49 UTC</createdTime>
+<ownerDesignName>dd8groupProject</ownerDesignName>
+<engineerTo>
+<item key="55617772-D8DA-5A9D-384D-D73F221344B2" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Member_Name" id="1A57E301-0DC5-0FE9-E4B1-39F9AA732513">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-21 04:41:53 UTC</createdTime>
+<ownerDesignName>dd8groupProject</ownerDesignName>
+<engineerTo>
+<item key="55617772-D8DA-5A9D-384D-D73F221344B2" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Title" id="37B66437-98CD-8F81-FC70-EE460CF6F775">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-21 04:41:57 UTC</createdTime>
+<ownerDesignName>dd8groupProject</ownerDesignName>
+<engineerTo>
+<item key="55617772-D8DA-5A9D-384D-D73F221344B2" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Member_Address" id="83281B22-0882-DED1-BBD3-A1C6C333316B">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-21 04:42:04 UTC</createdTime>
+<ownerDesignName>dd8groupProject</ownerDesignName>
+<engineerTo>
+<item key="55617772-D8DA-5A9D-384D-D73F221344B2" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Phone_Number" id="CB525A93-7573-745F-ACC2-5A950A9F6296">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-21 04:42:17 UTC</createdTime>
+<ownerDesignName>dd8groupProject</ownerDesignName>
+<engineerTo>
+<item key="55617772-D8DA-5A9D-384D-D73F221344B2" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Membership_Type" id="F1073BB8-2B8D-AD36-9822-E554B77B3429">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-21 04:42:23 UTC</createdTime>
+<ownerDesignName>dd8groupProject</ownerDesignName>
+<engineerTo>
+<item key="55617772-D8DA-5A9D-384D-D73F221344B2" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Dues_Paid_Check" id="98AE129F-1136-49E2-DFB6-4192E9C1114E">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-21 04:42:33 UTC</createdTime>
+<ownerDesignName>dd8groupProject</ownerDesignName>
+<engineerTo>
+<item key="55617772-D8DA-5A9D-384D-D73F221344B2" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4C2DEBFD-77E1-B2EC-AF32-DD9D7A1CEBD1" name="MEMBER PK">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-21 04:43:32 UTC</createdTime>
+<ownerDesignName>dd8groupProject</ownerDesignName>
+<engineerTo>
+<item key="55617772-D8DA-5A9D-384D-D73F221344B2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0B177D6A-0A6C-B4AD-589E-5436A0FC7010</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

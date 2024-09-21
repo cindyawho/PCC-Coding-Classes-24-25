@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="96BD39C2-BC05-30AE-BA56-59CFB77E06D9" name="EVENT">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-21 04:39:55 UTC</createdTime>
+<ownerDesignName>dd8groupProject</ownerDesignName>
+<engineerTo>
+<item key="55617772-D8DA-5A9D-384D-D73F221344B2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Event_ID" id="FE59C94C-0414-8AA4-961D-B3CCA10523C5">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-21 04:44:26 UTC</createdTime>
+<ownerDesignName>dd8groupProject</ownerDesignName>
+<engineerTo>
+<item key="55617772-D8DA-5A9D-384D-D73F221344B2" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Event_Name" id="69842008-E591-2296-99EB-60F723ED795F">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-21 04:44:31 UTC</createdTime>
+<ownerDesignName>dd8groupProject</ownerDesignName>
+<engineerTo>
+<item key="55617772-D8DA-5A9D-384D-D73F221344B2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Event_Date" id="74387716-1593-6746-34D4-DA0B47F6A80C">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-21 04:44:34 UTC</createdTime>
+<ownerDesignName>dd8groupProject</ownerDesignName>
+<engineerTo>
+<item key="55617772-D8DA-5A9D-384D-D73F221344B2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Attribute_4" id="271B0DB3-01D5-0C1E-38D5-62EEAB6F2030">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-21 04:44:44 UTC</createdTime>
+<ownerDesignName>dd8groupProject</ownerDesignName>
+<engineerTo>
+<item key="55617772-D8DA-5A9D-384D-D73F221344B2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D9CA0130-7EEF-83DB-BE2B-C7BC68E01ADC" name="EVENT PK">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-21 04:44:30 UTC</createdTime>
+<ownerDesignName>dd8groupProject</ownerDesignName>
+<engineerTo>
+<item key="55617772-D8DA-5A9D-384D-D73F221344B2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FE59C94C-0414-8AA4-961D-B3CCA10523C5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

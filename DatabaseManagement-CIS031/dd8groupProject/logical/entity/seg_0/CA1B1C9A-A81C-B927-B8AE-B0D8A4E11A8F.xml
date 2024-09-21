@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CA1B1C9A-A81C-B927-B8AE-B0D8A4E11A8F" name="COMPANY">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-21 04:39:15 UTC</createdTime>
+<ownerDesignName>dd8groupProject</ownerDesignName>
+<engineerTo>
+<item key="55617772-D8DA-5A9D-384D-D73F221344B2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Company_ID" id="E93FEC8B-26D8-1F67-95AB-6A7055AB2116">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-21 04:40:37 UTC</createdTime>
+<ownerDesignName>dd8groupProject</ownerDesignName>
+<engineerTo>
+<item key="55617772-D8DA-5A9D-384D-D73F221344B2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Company_Name" id="23283BDE-3FA6-F63C-0688-D891EF72C11E">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-21 04:40:45 UTC</createdTime>
+<ownerDesignName>dd8groupProject</ownerDesignName>
+<engineerTo>
+<item key="55617772-D8DA-5A9D-384D-D73F221344B2" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Company_Address" id="E4564DF8-B3B4-9203-122B-A423E76D30EF">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-21 04:41:04 UTC</createdTime>
+<ownerDesignName>dd8groupProject</ownerDesignName>
+<engineerTo>
+<item key="55617772-D8DA-5A9D-384D-D73F221344B2" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Company_Type" id="6BC1E942-9FD5-033C-78FA-0334683F04EE">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-21 04:41:09 UTC</createdTime>
+<ownerDesignName>dd8groupProject</ownerDesignName>
+<engineerTo>
+<item key="55617772-D8DA-5A9D-384D-D73F221344B2" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="10660893-2297-C6E8-058A-FBE730184351" name="COMPANY PK">
+<createdBy>cindyandrade</createdBy>
+<createdTime>2024-09-21 04:40:53 UTC</createdTime>
+<ownerDesignName>dd8groupProject</ownerDesignName>
+<engineerTo>
+<item key="55617772-D8DA-5A9D-384D-D73F221344B2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E93FEC8B-26D8-1F67-95AB-6A7055AB2116</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
