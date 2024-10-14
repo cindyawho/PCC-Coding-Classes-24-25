@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="90B12E99-C660-55B5-021B-A097A4A71DC2" name="TICKET">
+<createdBy>cindy</createdBy>
+<createdTime>2024-09-19 01:24:09 UTC</createdTime>
+<ownerDesignName>9-18-unit7-homework</ownerDesignName>
+<engineerTo>
+<item key="027D723A-BE6F-74F3-0072-553B0F9A4103" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Ticket_ID" id="A3993C35-0687-C83A-8DD1-80A5F0469E34">
+<createdBy>cindy</createdBy>
+<createdTime>2024-09-19 01:27:00 UTC</createdTime>
+<ownerDesignName>9-18-unit7-homework</ownerDesignName>
+<engineerTo>
+<item key="027D723A-BE6F-74F3-0072-553B0F9A4103" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EventName" id="33CC1CED-0259-0590-3B1F-1CACB271F5C7">
+<createdBy>cindy</createdBy>
+<createdTime>2024-09-19 01:27:46 UTC</createdTime>
+<ownerDesignName>9-18-unit7-homework</ownerDesignName>
+<engineerTo>
+<item key="027D723A-BE6F-74F3-0072-553B0F9A4103" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Description" id="A222B961-5D6A-41F0-EBCC-6E264108F165">
+<createdBy>cindy</createdBy>
+<createdTime>2024-09-19 01:27:02 UTC</createdTime>
+<ownerDesignName>9-18-unit7-homework</ownerDesignName>
+<engineerTo>
+<item key="027D723A-BE6F-74F3-0072-553B0F9A4103" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Date" id="3961A1C5-5FB1-A2F4-F839-C7A9FEC0D905">
+<createdBy>cindy</createdBy>
+<createdTime>2024-09-19 01:27:56 UTC</createdTime>
+<ownerDesignName>9-18-unit7-homework</ownerDesignName>
+<engineerTo>
+<item key="027D723A-BE6F-74F3-0072-553B0F9A4103" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Price" id="21D1ACE0-340F-6508-093F-4D9A5FB81FE5">
+<createdBy>cindy</createdBy>
+<createdTime>2024-09-19 01:28:12 UTC</createdTime>
+<ownerDesignName>9-18-unit7-homework</ownerDesignName>
+<engineerTo>
+<item key="027D723A-BE6F-74F3-0072-553B0F9A4103" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Agent_ID" id="10EB424E-3CE8-D8BA-F238-F8763623D273">
+<createdBy>cindy</createdBy>
+<createdTime>2024-09-19 01:34:07 UTC</createdTime>
+<generatorID>DA0A721F-BC55-BE64-22CE-7415BE7EE7DA</generatorID>
+<ownerDesignName>9-18-unit7-homework</ownerDesignName>
+<engineerTo>
+<item key="027D723A-BE6F-74F3-0072-553B0F9A4103" value="true"/>
+</engineerTo>
+<referedAttribute>13CF7BD4-E6FF-C1D7-68FB-7AE28FDF60F6</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BoxOffice_ID" id="1733495C-9CFA-8B00-076E-41696DD7B936">
+<createdBy>cindy</createdBy>
+<createdTime>2024-09-19 01:34:29 UTC</createdTime>
+<generatorID>5D655537-9851-BA13-617B-E793A4FF732B</generatorID>
+<ownerDesignName>9-18-unit7-homework</ownerDesignName>
+<engineerTo>
+<item key="027D723A-BE6F-74F3-0072-553B0F9A4103" value="true"/>
+</engineerTo>
+<referedAttribute>F6E06945-DAC7-8F1B-00AE-7CC71D41ED17</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="URL_Address" id="BFFF9715-0564-6DD8-09A4-D0F57AE44151">
+<createdBy>cindy</createdBy>
+<createdTime>2024-09-19 01:34:43 UTC</createdTime>
+<generatorID>00A15E6F-429D-341A-69F1-4822F15E4686</generatorID>
+<ownerDesignName>9-18-unit7-homework</ownerDesignName>
+<engineerTo>
+<item key="027D723A-BE6F-74F3-0072-553B0F9A4103" value="true"/>
+</engineerTo>
+<referedAttribute>17ED8D64-A953-814F-B744-37C131E05454</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="326A7F81-7AF3-47B0-A77C-C9BB8F9AECB7" name="Ticket PK">
+<createdBy>cindy</createdBy>
+<createdTime>2024-09-19 01:27:10 UTC</createdTime>
+<ownerDesignName>9-18-unit7-homework</ownerDesignName>
+<engineerTo>
+<item key="027D723A-BE6F-74F3-0072-553B0F9A4103" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A3993C35-0687-C83A-8DD1-80A5F0469E34</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

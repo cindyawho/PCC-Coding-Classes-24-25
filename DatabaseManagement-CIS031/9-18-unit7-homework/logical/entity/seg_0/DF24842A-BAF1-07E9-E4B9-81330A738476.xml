@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DF24842A-BAF1-07E9-E4B9-81330A738476" name="SALES_DIVISION">
+<createdBy>cindy</createdBy>
+<createdTime>2024-09-19 02:52:27 UTC</createdTime>
+<ownerDesignName>9-18-unit7-homework</ownerDesignName>
+<engineerTo>
+<item key="027D723A-BE6F-74F3-0072-553B0F9A4103" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Code" id="FA373532-4AFD-7347-8A4A-CFC6D40CE1CD">
+<createdBy>cindy</createdBy>
+<createdTime>2024-09-19 02:52:33 UTC</createdTime>
+<ownerDesignName>9-18-unit7-homework</ownerDesignName>
+<engineerTo>
+<item key="027D723A-BE6F-74F3-0072-553B0F9A4103" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="75578338-07D7-FC6D-E980-50C685031AC5">
+<createdBy>cindy</createdBy>
+<createdTime>2024-09-19 02:53:09 UTC</createdTime>
+<ownerDesignName>9-18-unit7-homework</ownerDesignName>
+<engineerTo>
+<item key="027D723A-BE6F-74F3-0072-553B0F9A4103" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Code1" id="6AA9BA9F-D714-9189-B8D4-F55E191AD15E">
+<createdBy>cindy</createdBy>
+<createdTime>2024-09-19 02:53:35 UTC</createdTime>
+<generatorID>48D31AC1-609C-B88D-2AA2-8ABEE77A564C</generatorID>
+<ownerDesignName>9-18-unit7-homework</ownerDesignName>
+<engineerTo>
+<item key="027D723A-BE6F-74F3-0072-553B0F9A4103" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>FA373532-4AFD-7347-8A4A-CFC6D40CE1CD</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6EF4D772-6FE1-0CB3-2764-F25E02561A4F" name="SALES_DIVISION PK">
+<createdBy>cindy</createdBy>
+<createdTime>2024-09-19 02:52:59 UTC</createdTime>
+<ownerDesignName>9-18-unit7-homework</ownerDesignName>
+<engineerTo>
+<item key="027D723A-BE6F-74F3-0072-553B0F9A4103" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FA373532-4AFD-7347-8A4A-CFC6D40CE1CD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

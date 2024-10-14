@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="96793F48-B30D-8BBC-F5FE-4E5B7A318F74" name="SALES_AREA">
+<createdBy>cindy</createdBy>
+<createdTime>2024-09-19 02:12:34 UTC</createdTime>
+<ownerDesignName>9-18-unit7-homework</ownerDesignName>
+<engineerTo>
+<item key="027D723A-BE6F-74F3-0072-553B0F9A4103" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Sales-Area_Code" id="AF56B68B-80CA-CC08-057B-E675ABE9F490">
+<createdBy>cindy</createdBy>
+<createdTime>2024-09-19 02:22:09 UTC</createdTime>
+<ownerDesignName>9-18-unit7-homework</ownerDesignName>
+<engineerTo>
+<item key="027D723A-BE6F-74F3-0072-553B0F9A4103" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Sales-Area_Name" id="DE22F760-8783-A6E6-660A-3EB3A000F21F">
+<createdBy>cindy</createdBy>
+<createdTime>2024-09-19 02:31:05 UTC</createdTime>
+<ownerDesignName>9-18-unit7-homework</ownerDesignName>
+<engineerTo>
+<item key="027D723A-BE6F-74F3-0072-553B0F9A4103" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Sales_ID" id="D93EC08D-1DD5-33E9-DE8D-D0437B7EAA83">
+<createdBy>cindy</createdBy>
+<createdTime>2024-09-19 02:49:59 UTC</createdTime>
+<generatorID>E2D9CCE4-5432-1B5F-257D-576E231D64B8</generatorID>
+<ownerDesignName>9-18-unit7-homework</ownerDesignName>
+<engineerTo>
+<item key="027D723A-BE6F-74F3-0072-553B0F9A4103" value="true"/>
+</engineerTo>
+<referedAttribute>03009070-A9F0-24A4-D934-60CD2E4D436E</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Territory_Code" id="B0550E7A-4568-75A5-2FDC-24687EF956AC">
+<createdBy>cindy</createdBy>
+<createdTime>2024-09-19 02:58:59 UTC</createdTime>
+<generatorID>015CD737-5774-BB2F-EE48-33B30C2E722B</generatorID>
+<ownerDesignName>9-18-unit7-homework</ownerDesignName>
+<engineerTo>
+<item key="027D723A-BE6F-74F3-0072-553B0F9A4103" value="true"/>
+</engineerTo>
+<referedAttribute>D2902176-BFB8-09A0-930D-02DC09253CE4</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6C6906EF-E86A-023D-FAC3-38AA521BD1F8" name="SALES_AREA PK">
+<createdBy>cindy</createdBy>
+<createdTime>2024-09-19 02:22:16 UTC</createdTime>
+<ownerDesignName>9-18-unit7-homework</ownerDesignName>
+<engineerTo>
+<item key="027D723A-BE6F-74F3-0072-553B0F9A4103" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AF56B68B-80CA-CC08-057B-E675ABE9F490</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

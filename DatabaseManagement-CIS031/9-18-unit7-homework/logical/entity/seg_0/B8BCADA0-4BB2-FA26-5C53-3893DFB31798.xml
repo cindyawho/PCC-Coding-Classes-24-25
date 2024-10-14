@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B8BCADA0-4BB2-FA26-5C53-3893DFB31798" name="EMPLOYEE">
+<createdBy>cindy</createdBy>
+<createdTime>2024-09-19 02:17:19 UTC</createdTime>
+<ownerDesignName>9-18-unit7-homework</ownerDesignName>
+<engineerTo>
+<item key="027D723A-BE6F-74F3-0072-553B0F9A4103" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Employee_ID" id="89D52206-D3A5-5C54-BAD6-24B471E9A784">
+<createdBy>cindy</createdBy>
+<createdTime>2024-09-19 02:17:35 UTC</createdTime>
+<ownerDesignName>9-18-unit7-homework</ownerDesignName>
+<engineerTo>
+<item key="027D723A-BE6F-74F3-0072-553B0F9A4103" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Role" id="5E7AD15B-C815-033A-F8AA-23ECC74AE89D">
+<createdBy>cindy</createdBy>
+<createdTime>2024-09-19 02:19:12 UTC</createdTime>
+<ownerDesignName>9-18-unit7-homework</ownerDesignName>
+<engineerTo>
+<item key="027D723A-BE6F-74F3-0072-553B0F9A4103" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Sales Quota" id="0D420BE6-3A6F-080A-8C01-CA6C7C0C0B36">
+<createdBy>cindy</createdBy>
+<createdTime>2024-09-19 02:19:28 UTC</createdTime>
+<ownerDesignName>9-18-unit7-homework</ownerDesignName>
+<engineerTo>
+<item key="027D723A-BE6F-74F3-0072-553B0F9A4103" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Sales_Area" id="887123BF-EA81-5F2E-728A-1DFE9826F1B7">
+<createdBy>cindy</createdBy>
+<createdTime>2024-09-19 02:19:40 UTC</createdTime>
+<ownerDesignName>9-18-unit7-homework</ownerDesignName>
+<engineerTo>
+<item key="027D723A-BE6F-74F3-0072-553B0F9A4103" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Sales_District" id="173B1A0E-F009-4427-4F2E-C18F1F05FF69">
+<createdBy>cindy</createdBy>
+<createdTime>2024-09-19 02:25:09 UTC</createdTime>
+<ownerDesignName>9-18-unit7-homework</ownerDesignName>
+<engineerTo>
+<item key="027D723A-BE6F-74F3-0072-553B0F9A4103" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Sales_Region" id="4FA72CE3-53F0-9875-610D-871DCE618358">
+<createdBy>cindy</createdBy>
+<createdTime>2024-09-19 02:25:14 UTC</createdTime>
+<ownerDesignName>9-18-unit7-homework</ownerDesignName>
+<engineerTo>
+<item key="027D723A-BE6F-74F3-0072-553B0F9A4103" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Special_Assignments" id="30C44FED-C459-1129-6419-4691F3A9196F">
+<createdBy>cindy</createdBy>
+<createdTime>2024-09-19 02:26:24 UTC</createdTime>
+<ownerDesignName>9-18-unit7-homework</ownerDesignName>
+<engineerTo>
+<item key="027D723A-BE6F-74F3-0072-553B0F9A4103" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Code" id="06ED978F-E606-673B-FB29-11211CC1C2BC">
+<createdBy>cindy</createdBy>
+<createdTime>2024-09-19 02:54:09 UTC</createdTime>
+<generatorID>DB011132-4B2F-3F92-8B05-0F0748892261</generatorID>
+<ownerDesignName>9-18-unit7-homework</ownerDesignName>
+<engineerTo>
+<item key="027D723A-BE6F-74F3-0072-553B0F9A4103" value="true"/>
+</engineerTo>
+<referedAttribute>FA373532-4AFD-7347-8A4A-CFC6D40CE1CD</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="93AA23CB-4DD3-2988-536E-7344B66FCDCA" name="EMPLOYEE PK">
+<createdBy>cindy</createdBy>
+<createdTime>2024-09-19 02:17:44 UTC</createdTime>
+<ownerDesignName>9-18-unit7-homework</ownerDesignName>
+<engineerTo>
+<item key="027D723A-BE6F-74F3-0072-553B0F9A4103" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>89D52206-D3A5-5C54-BAD6-24B471E9A784</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
