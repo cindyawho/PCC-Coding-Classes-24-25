@@ -11,7 +11,7 @@ the output is:
 3
  */
 
-public class LabProgram {
+public class LabProgram09 {
    public static void main(String[] args) {
         Scanner scnr = new Scanner(System.in);
         int num1;
