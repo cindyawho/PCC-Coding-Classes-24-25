@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D6A001B7-F992-A32C-A498-888717D388E9" name="TERRITORY">
+<createdBy>cindy</createdBy>
+<createdTime>2024-09-19 02:12:23 UTC</createdTime>
+<ownerDesignName>9-18-unit7-homework</ownerDesignName>
+<engineerTo>
+<item key="027D723A-BE6F-74F3-0072-553B0F9A4103" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Territory_Code" id="D2902176-BFB8-09A0-930D-02DC09253CE4">
+<createdBy>cindy</createdBy>
+<createdTime>2024-09-19 02:21:54 UTC</createdTime>
+<ownerDesignName>9-18-unit7-homework</ownerDesignName>
+<engineerTo>
+<item key="027D723A-BE6F-74F3-0072-553B0F9A4103" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Territory_Name" id="72B13F0B-5F55-4454-EF7C-AD91972E40B3">
+<createdBy>cindy</createdBy>
+<createdTime>2024-09-19 02:30:54 UTC</createdTime>
+<ownerDesignName>9-18-unit7-homework</ownerDesignName>
+<engineerTo>
+<item key="027D723A-BE6F-74F3-0072-553B0F9A4103" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="District_Code" id="F78C4C82-3DFB-B22C-56E0-C9C8F582DCD3">
+<createdBy>cindy</createdBy>
+<createdTime>2024-09-19 02:58:41 UTC</createdTime>
+<generatorID>C5F759A5-AEA7-249A-4CFE-B24E65734C3E</generatorID>
+<ownerDesignName>9-18-unit7-homework</ownerDesignName>
+<engineerTo>
+<item key="027D723A-BE6F-74F3-0072-553B0F9A4103" value="true"/>
+</engineerTo>
+<referedAttribute>039DAEC2-5D00-489F-CD50-5CDCEDE60732</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A7F09F37-345D-3C22-9EF3-FC90BB7526F3" name="TERRITORY PK">
+<createdBy>cindy</createdBy>
+<createdTime>2024-09-19 02:22:04 UTC</createdTime>
+<ownerDesignName>9-18-unit7-homework</ownerDesignName>
+<engineerTo>
+<item key="027D723A-BE6F-74F3-0072-553B0F9A4103" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D2902176-BFB8-09A0-930D-02DC09253CE4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

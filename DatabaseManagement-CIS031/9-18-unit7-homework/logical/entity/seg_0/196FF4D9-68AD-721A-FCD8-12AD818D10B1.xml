@@ -1,0 +1,43 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="196FF4D9-68AD-721A-FCD8-12AD818D10B1" name="Sales_Manager">
+<createdBy>cindy</createdBy>
+<createdTime>2024-09-19 02:50:08 UTC</createdTime>
+<ownerDesignName>9-18-unit7-homework</ownerDesignName>
+<engineerTo>
+<item key="027D723A-BE6F-74F3-0072-553B0F9A4103" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ManagerID" id="C2523760-51A3-727A-D690-9AA304E95C46">
+<createdBy>cindy</createdBy>
+<createdTime>2024-09-19 02:50:16 UTC</createdTime>
+<ownerDesignName>9-18-unit7-homework</ownerDesignName>
+<engineerTo>
+<item key="027D723A-BE6F-74F3-0072-553B0F9A4103" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="246669F0-9D6A-FE28-1EAF-D187EEA8DA61" name="Sales_Manager PK">
+<createdBy>cindy</createdBy>
+<createdTime>2024-09-19 02:50:24 UTC</createdTime>
+<ownerDesignName>9-18-unit7-homework</ownerDesignName>
+<engineerTo>
+<item key="027D723A-BE6F-74F3-0072-553B0F9A4103" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C2523760-51A3-727A-D690-9AA304E95C46</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
